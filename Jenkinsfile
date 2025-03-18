@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o output YOUR_SRN-1.cpp'  // Compile C++ file
+                    sh 'g++ -o output pesug22cs009.cpp'  // Compile C++ file
                 }
             }
         }
